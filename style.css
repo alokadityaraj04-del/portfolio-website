@@ -1,0 +1,65 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,sans-serif;
+}
+
+section{
+    padding:100px 0;
+}
+
+#home{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#007bff,#6610f2);
+
+    color:rgb(246, 244, 244);
+
+}
+
+.profile-img{
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    border:5px solid white;
+
+    margin-bottom:20px;
+
+}
+
+.card{
+
+    transition:0.3s;
+
+}
+
+.card:hover{
+
+    transform:scale(1.05);
+
+}
+
+footer{
+
+    background:black;
+
+    color:rgb(244, 243, 243);
+
+    text-align:center;
+
+    padding:20px;
+
+}
